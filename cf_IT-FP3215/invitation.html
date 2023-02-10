@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- saved from url=(0193)file:///C:/Users/gurda1/Desktop/Capella/Courses/JavaScript/cf_IT-FP3215/invitation.html?recipientName=Rob&organizationName=Capella&eventDate=1%2F23%2F23&websiteURL=capella.com&hostName=Capella# -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Invitation Page</title>
+    <link rel="stylesheet" type="text/css" href="./invitation_files/main.css"><script type="text/javascript" src="./invitation_files/captureInput.js.download"></script>
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <a class="logo" href="file:///C:/Users/gurda1/Desktop/Capella/Courses/JavaScript/cf_IT-FP3215/index.html">CapellaVolunteers<span class="dotcom">.org</span></a>
+        </div>
+        <nav>
+            <ul class="topnav">
+                <li><a href="file:///C:/Users/gurda1/Desktop/Capella/Courses/JavaScript/cf_IT-FP3215/index.html">Home</a>
+                </li>
+                <li><a href="file:///C:/Users/gurda1/Desktop/Capella/Courses/JavaScript/cf_IT-FP3215/invitation.html" class="active">Invitation</a>
+                </li>
+                <li><a href="file:///C:/Users/gurda1/Desktop/Capella/Courses/JavaScript/cf_IT-FP3215/gallery.html">Gallery</a>
+                </li>
+                <li><a href="file:///C:/Users/gurda1/Desktop/Capella/Courses/JavaScript/cf_IT-FP3215/registration.html">Registration</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+    <section id="pageForm">
+        <form action="file:///C:/Users/gurda1/Desktop/Capella/Courses/JavaScript/cf_IT-FP3215/invitation.html#">
+            <label for="recipientName">Recipient name:</label>
+            <input type="text" id="recipientName" name="recipientName" placeholder="Enter your Recipient Name">
+
+
+            <label for="organizationName">Organization name:
+            </label>
+            <input type="text" id="organizationName" name="organizationName" placeholder="Enter your Organization Name">
+            <label for="eventDate">Event Date:
+            </label>
+            <input type="text" id="eventDate" name="eventDate" placeholder="Enter your Event Date">
+
+            <label for="websiteURL">URL:
+            </label>
+            <input type="text" id="websiteURL" name="websiteURL" placeholder="Enter your Website URL">
+            <label for="hostName">Host name:
+            </label>
+            <input type="text" id="hostName" name="hostName" placeholder="Host Name">
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </section>
+
+
+    <article id="placeholderContent">
+        Hello <span id="outputrecipientName">recipientName</span>!
+        <br>
+        <br> You have been invited to volunteer for an event held by <span id="outputorganizationName">organizationName</span> on <span id="outputeventDate">eventDate</span>. Please come to the following website: <span id="outputwebsiteURL">websiteURL</span> to sign up as a volunteer.
+        <br>
+        <br> Thanks!
+        <br>
+        <br>
+        <span id="outputhostName">hostName</span>
+    </article>
+    <footer>This events site is for IT-FP3215 tasks.
+    </footer>
+
+
+</body></html>
